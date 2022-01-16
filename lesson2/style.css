@@ -1,0 +1,61 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #fffcdb;
+    display: block;
+    padding: 2px;
+    max-width: 970px;
+    margin: auto;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+.name{
+    text-align: center;
+}
+main{
+    display: block;
+}
+.principles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.5cm;
+}
+.white-space{
+    margin-top: 1px;
+    text-align: center;
+    padding: 1cm;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.repetition {
+    margin-top: 1px;
+    text-align: center;
+    padding: 1cm;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.alignment {
+    margin-top: 1px;
+    text-align: center;
+    padding: 1cm;
+    box-shadow: rgba(77, 93, 50, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+p {
+    text-align: justify;
+}
+h2{
+    font-size: 30px;
+    margin-top: 0.5cm;
+    text-decoration: underline;
+}
+footer{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.copyright,
+.currentdate{
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+}
