@@ -1,0 +1,150 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*header*/
+header{
+    height: 250px;
+    background: rgb(181, 185, 185);
+    padding: 0 50px;
+    color: rgb(0, 119, 54);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-img{
+    border-radius: 15px;
+}
+.menu a{
+    color: rgb(0, 119, 54);
+    text-transform: uppercase;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 0px 25px;
+}
+.show-menu,
+.hide-menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+.show-menu{
+    order: 1;
+}
+.menu a:hover,
+.show-menu:hover,
+.hide-menu:hover{
+    color: rgb(255, 255, 255);
+}
+#check{
+    display: none;
+}
+
+/* MAIN */
+.requeriment{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.requeriment div{
+    padding: 10px 10px;
+    width: 50%;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+.domain{
+    text-align: center;
+    font-size: 18px;
+}
+.domain a{
+    text-decoration: none;
+    color: rgb(0, 119, 54);
+}
+.domain a:hover{
+    background-color: rgb(181, 185, 185);
+}
+h2{
+    padding: 10px;
+    font-size: 25px;
+}
+.logo,
+.purpose{
+    border-radius: 10px;
+    background-color: rgb(181, 185, 185);;
+}
+.purpose p{
+    text-align: justify;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+footer p{
+    margin-top: 10px;
+}
+
+
+
+/*RESPONSIVE*/
+@media(max-width:768px){
+    /* HEADER */
+    .show-menu,
+    .hide-menu{
+        display: block;
+    }
+    .logo-img{
+        margin: auto;
+    }
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(181, 185, 185);
+        right: -100%; 
+        top: 0;
+        text-align: center;
+        padding: 100px 0px; 
+        z-index: 100;
+        transition: 0.8s;
+    }
+    .menu a{
+        display: block;
+        padding: 20px;
+    }
+    .hide-menu{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    #check:checked ~ .menu{
+        right: 0;
+         
+    }
+    /* MAIN */
+    .requeriment{
+        display: block;
+        right: -100%; 
+        top: 0;
+        padding: 10px 0px; 
+        z-index: 100;
+        transition: 0.8s;
+    }
+    .logo,
+    .purpose{
+        margin: auto;
+        margin-top: 20px;
+    }
+
+
+
+}
