@@ -15,7 +15,14 @@ const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 	now
 );
-datefield.innerHTML = `<em>${fulldate}</em>`;
+
+const datefieldUK = document.querySelector("aside");
+const fulldateUK = new Intl.DateTimeFormat("en-UK", {
+	dateStyle: "full"
+}).format(now);
+datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
+
 
 // Last Modified Date 
 document.querySelector("#lastModified").textContent = `Last Modification: ${document.lastModified}`;

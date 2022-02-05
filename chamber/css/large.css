@@ -99,7 +99,7 @@ nav h1 {
 
 /* CURRENT DATE */
 
-date {
+aside {
     display: block;
     width: 100%;
     background-color: #d4d3d3;
@@ -199,7 +199,7 @@ footer img {
 
 /*RESPONSIVE - TABLET*/
 
-@media (min-width:768px) and (max-width:1024px) {
+/* @media (min-width:768px) and (max-width:1024px) {
 
     body {
         overflow: hidden;
@@ -300,11 +300,11 @@ footer img {
 
 
 
-}
+} */
     
 
 
-/*RESPONSIVE - MOBILE PHONE*/
+/* RESPONSIVE - MOBILE PHONE
 
 @media (max-width:767px) {
 
@@ -409,4 +409,4 @@ footer img {
     display: flex;
     animation: showMenu 350ms ease-in-out both;
 }
-
+ */
