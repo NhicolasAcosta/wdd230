@@ -10,19 +10,34 @@ ham.addEventListener('click', () => {
 })
 
 // Current Date
-const datefield = document.querySelector("date");
+const datefield = document.querySelector('date');
 const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
+const fulldate = new Intl.DateTimeFormat('en-US', { dateStyle: 'full' }).format(
 	now
 );
 
-const datefieldUK = document.querySelector("aside");
-const fulldateUK = new Intl.DateTimeFormat("en-UK", {
-	dateStyle: "full"
+const datefieldUK = document.querySelector('aside');
+const fulldateUK = new Intl.DateTimeFormat('en-UK', {
+	dateStyle: 'full'
 }).format(now);
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
-
-
 // Last Modified Date 
-document.querySelector("#lastModified").textContent = `Last Modification: ${document.lastModified}`;
+document.querySelector('#lastModified').textContent = `Last Modification: ${document.lastModified}`;
+
+//------------------------------------------------------------------------------------------------------------- 
+//Current Date for banner
+const today = new Date();
+
+// Sunday - Saturday : 0 - 6
+const day = today.getDay();
+
+//Show invitation
+function showInvitation() {
+    document.getElementById('invitation').style.display = 'block';
+    document.getElementById('invitation-button').style.display = 'block';
+}
+//Show the invitation on Monday or Tuesday 
+if (day === 2 || day === 1) {
+    showInvitation();
+}
