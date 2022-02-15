@@ -16,7 +16,7 @@
         transform: 0.2s 0.1s;
     }
     nav {
-        display: flex;
+        display: block;
         width: 100%;
     }
     .header-title {

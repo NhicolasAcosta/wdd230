@@ -20,8 +20,7 @@
         transform: rotate(360deg);
     }
     nav {
-        display: flex;
-        padding: 25px 0;
+        display: block;
         width: 100%;
     }
     .header-title {
