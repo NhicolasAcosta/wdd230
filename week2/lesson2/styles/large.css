@@ -1,0 +1,17 @@
+@media screen and (max-width:490px) {
+    .title{
+        font-size: 33px;
+    }
+    .principles {
+        display: block
+    }
+    .principles div{
+        margin-top: 15px;
+    }
+    h2{
+        font-size: 27px;
+    }
+    h3{
+        font-size: 15px;
+    }
+}
