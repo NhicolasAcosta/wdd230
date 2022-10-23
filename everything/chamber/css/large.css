@@ -119,7 +119,6 @@ main{
     grid-template-columns: 25% 50% 25%;
     font-size: 20px;
     margin: 20px auto;
-    margin-bottom: 17rem;
     gap: 10px;
     width: 90%;
     height: 800px;
@@ -158,23 +157,13 @@ main div{
 
 .div-2 {
     grid-column: 2/3;
-    grid-row: 1/3; 
+    grid-row: 1/3;
+    background-image: url(/wdd230/chamber/images/tucuman-city.png);
+    background-size: cover;
+    background-position: center;
 }
-.div-2 picture{
-    width: 100%;
-}
-.div-2 picture img{
-    height: 100%;
-    width: 100%;
-    border-radius: 5px;
-}
-.div-2 h2, .div-2 p, .div-2 button {
-    position: absolute;
-    top: 35%;
-    left: 31%;
-}
-.div-2  h2{
-    font-size: 32px;
+.div-2 h2{
+    font-size: 42px;
     text-align: right;
     margin-right: 35px;
     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c5c3c4 0px 0px 20px, #104d30 0px 0px 30px, #104d30 0px 0px 40px, #104d30 0px 0px 50px, #104d30 0px 0px 75px, -40px -40px 0px rgba(255,255,255,0);
@@ -267,29 +256,12 @@ box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -50px -50px
 }
 .div-4 h3{
     margin-top: 8px;
-    font-size: 30px;
 }
 .div-4 hr{
     margin: 1px 20px;
 }
 .div-4 p{
-    margin: 5px 0;
-    font-size: 20px;
-}
-.partly{
-    margin-bottom: 2px;
-    margin-top: 2px;
-}
-.div-4-1 {
-    margin-top: -20px;
-    display: flex;
-}
-.div-4-1 p {
-    font-size: 35px;
-    margin-left: 40px;
-}
-.div-4-1 img{
-    margin-left: 25%;
+    margin: 10px 0;
 }
 
 /*--------------------------------------------  DIV 5 ----------------------------------------------------*/
@@ -329,7 +301,6 @@ box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -50px -50px
 
 footer {
     background-color: #36383a;
-    color: white;
     width: 100%;
     padding: 20px;
 }
