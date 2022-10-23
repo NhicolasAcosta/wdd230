@@ -122,7 +122,7 @@ main{
     margin-bottom: 17rem;
     gap: 10px;
     width: 90%;
-    height: 800px;
+    height: 100%;
 
 }
 main div{
@@ -170,13 +170,13 @@ main div{
 }
 .div-2 h2, .div-2 p {
     position: absolute;
-    top: 35%;
-    left: 31%;
+    top: 15%;
+    left: 21%;
 }
 #invitation-button{
     position: absolute;
-    top: 60%;
-    left: 30%;
+    top: 40%;
+    left: 20%;
 }
 .div-2  h2{
     font-size: 32px;
