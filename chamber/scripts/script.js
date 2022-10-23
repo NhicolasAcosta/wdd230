@@ -35,7 +35,6 @@ const day = today.getDay();
 //Show invitation
 function showInvitation() {
     document.getElementById('invitation').style.display = 'block';
-    document.getElementById('invitation-button').style.display = 'block';
 }
 //Show the invitation on Monday or Tuesday 
 if (day === 2 || day === 1) {
