@@ -168,7 +168,7 @@ main div{
     width: 100%;
     border-radius: 5px;
 }
-.div-2 h2, .div-2 p {
+/* .div-2 h2, .div-2 p {
     position: absolute;
     top: 55%;
     left: 51%;
@@ -177,7 +177,7 @@ main div{
     position: absolute;
     top: 80%;
     left: 50%;
-}
+} */
 .div-2  h2{
     font-size: 32px;
     text-align: right;
