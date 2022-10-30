@@ -383,10 +383,18 @@ footer img {
 
 /*---------------------------------------- DISCOVER -------------------------------------------------------*/
 
-.images{
-    width: 52%;
-    margin: auto;
+.discover {
+    text-align: center;
 }
-.images img{
-    margin-top: 20px;
+.discover figure {
+    margin-bottom: 20px;
 }
+
+picture img[data-src] {
+    filter: blur(0.5em);
+  }
+  
+picture img {
+    filter: blur(0em);
+    transition: 2s;
+  }    
