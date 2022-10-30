@@ -1,7 +1,7 @@
 let imagesToLoad = document.querySelectorAll('img[data-src]');
 
 const imgOptions = {
-    threshold: 0.50,
+    threshold: 0.85,
     rootMargin: '0px'
 };
 const loadImages = (image) => {
@@ -26,3 +26,16 @@ if ('IntersectionObserver' in window) {
       loadImages(img);
     });
 }
+
+
+// ----------------------------------------------------------------------
+
+const visitDisplay = document.querySelector('#visit');
+let numberVisit = Number(window.localStorage.getItem('visit-ls'));
+if (numberVisit !== 0) {
+  visitDisplay.textContent = numberVisit;}
+  else {
+    visitDisplay.textContent = 'First Visit'
+  }
+numberVisit++;
+localStorage.setItem('visit-ls', numberVisit);

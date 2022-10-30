@@ -384,17 +384,31 @@ footer img {
 /*---------------------------------------- DISCOVER -------------------------------------------------------*/
 
 .discover {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
+    align-items: center;
 }
-.discover figure {
-    margin-bottom: 20px;
-}
-
 picture img[data-src] {
     filter: blur(0.5em);
-  }
+}
   
 picture img {
+    margin-bottom: 20px;
     filter: blur(0em);
     transition: 2s;
-  }    
+}
+.visits h2{
+    font-size: 30px;
+}
+.visits h3 {
+    font-size: 20px;
+}
+.visits {
+    text-align: center;
+}
+.discover p{
+    font-size: 15px;
+    width: 70%;
+    margin: 0 auto;
+}
