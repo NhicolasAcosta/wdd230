@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: gold;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+body img {
+    margin-left:35%;
+    margin-bottom: 20px;
+}
+
+picture img[data-src] {
+    filter: blur(0.5em);
+  }
+  
+picture img {
+    filter: blur(0em);
+    transition: 2s;
+  }    
