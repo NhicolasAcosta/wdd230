@@ -148,6 +148,23 @@
     .copyright {
         display: block;
     }
+/* -------------------- DISCOVER --------------------- */
+
+    .discover {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        align-items: center;
+    }
+    .visits h2{
+        font-size: 25px;
+    }
+    .visits h3 {
+        font-size: 15px;
+    }
+    .visits {
+        text-align: center;
+    }
     
 
 }
@@ -161,3 +178,4 @@
     display: flex;
     animation: showMenu 350ms ease-in-out both;
 }
+
