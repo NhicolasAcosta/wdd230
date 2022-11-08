@@ -472,5 +472,23 @@ picture:hover {
     color: white;
     background-color: #2b6d42;
     border: solid 2px white;
-    
+}
+
+/* ---- Thank for join ---- */
+
+.thank {
+    width: 60%;
+    background-color: #36383a;
+    color: #338450;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 2rem 2rem;
+}
+.thank h1{
+    font-size: 4rem;
+}
+.thank h2{
+    font-size: 3rem;
 }
