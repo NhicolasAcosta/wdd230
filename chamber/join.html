@@ -46,15 +46,18 @@
             </nav>
         </header>
     <body>
-
-        <form action="thankyou.html" method="get">
+        <h1 class="join-title">Join The Chamber of Commerce of Tucuman</h1>
+        <form action="thankyou.html" class="join-form" method="get">
             <fieldset>
-                <legend>Join The Tucuman Chamber of Commerce</legend>
+                <legend>Personal Information</legend>
                 <label>First Name* <input type="text" name="fname" required></label>
                 <label>Last Name* <input type="text" name="lname" required></label>
                 <label>Title <input type="text" name="title"></label>
                 <label>Email* <input type="email" name="email" placeholder="example@gmail.com" required></label>
                 <label>Phone Number* <input type="tel" name="nphone" required></label>
+            </fieldset>    
+            <fieldset>
+                <legend>Business Information</legend>
                 <label>Business Name <input type="text" required></label>
                 <label>Membership Level 
                     <select name="mlevel">
@@ -67,7 +70,7 @@
                 <label>Business Description <textarea name="bdescription" id="" cols="80" rows="10" placeholder="Please, describe your business"></textarea></label>
                 <input type="hidden" name="date">
             </fieldset>
-            
+            <input type="submit" value="Join" class="submit">
 
         </form>
 

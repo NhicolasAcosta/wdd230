@@ -422,3 +422,55 @@ picture:hover {
     margin: 0 auto;
     margin-bottom: 10px;
 }
+
+/*----------- JOIN ------------*/
+.join-title{
+    font-size: 4rem;
+    text-align: center;
+}
+.join-form {
+    background-color: #36383a;
+    padding: 1rem 2%;
+    margin: 2rem 0.5rem;
+    width: 80%;
+    color: white;
+    border-radius: 5px;
+    border: 10px solid;
+}
+.join-form fieldset {
+    margin-bottom: 1.5rem;
+
+}
+.join-form legend{
+    margin: 0 1rem;
+    padding: 0 1rem;
+    font-size: 2.5rem;
+    color: #338450;
+}
+.join-form label {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+.join-form input, .join-form select, .join-form textarea {
+    display: block;
+    font-size: 1.5rem;
+    border: solid 1.8px #338450;
+    border-radius: 5px;
+    padding: .6rem;
+    width: 70%;
+}
+.join-form .submit {
+    font-size: 2rem;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: #338450;
+    background-color: #666464;
+}
+.join-form .submit:hover {
+    color: white;
+    background-color: #2b6d42;
+    border: solid 2px white;
+    
+}
