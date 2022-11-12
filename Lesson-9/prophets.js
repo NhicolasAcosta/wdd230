@@ -34,11 +34,11 @@ function displayProphets(prophet) {
 }
 
 function ordinal(value){
-    let str = String(value),
-    len = str.length,
-    end  = str.substring(len - 1, 1),
-    bool = len > 1 && str.substring(len - 2, 1) === "1",
-    dOrdinal = "th";
+    let str = String(value)
+    let len = str.length
+    let end  = str.substring(len - 1, 1)
+    let bool = len > 1 && str.substring(len - 2, 1) === "1"
+    let dOrdinal = "th";
   if (end === "1" && !bool) {
     dOrdinal = "st";
   } else if (end === "2" && !bool) {
