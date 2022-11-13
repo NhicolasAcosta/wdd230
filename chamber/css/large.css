@@ -492,3 +492,9 @@ picture:hover {
 .thank h2{
     font-size: 3rem;
 }
+
+/* --------------- Directory ----------------- */
+
+.directory {
+    background-color: #000000;
+}
