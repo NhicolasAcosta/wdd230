@@ -1,0 +1,67 @@
+{
+    "company": [
+        {
+            "name":"Coca Cola",
+            "address":"Vedia 4090 - C1430DAK Tucuman, Argentina",
+            "phoneNumber":"0800-888-8888",
+            "website":"https://www.coca-cola.com.ar/",
+            "logoImg":"images/directory/Coca-Cola-logo.jpg"
+        },
+        {
+            "name":"Arcor",
+            "address":"Ingeniero Guillermo White 4546 - 4to y 5to piso CP: B1605CKJ",
+            "phoneNumber":"54-011-4310-9500",
+            "website":"https://www.arcor.com/ar/",
+            "logoImg":"images/directory/arcor-logo.jpg"
+        },
+        {
+            "name":"Toyota",
+            "address":"Ruta 12 Km81 San Miguel de Tucuman, Argentina",
+            "phoneNumber":"034-8742-9200",
+            "website":"https://www.toyota.com.ar/",
+            "logoImg":"images/directory/toyota-logo.jpg"
+        },
+        {
+            "name":"Cervecería Quilmes",
+            "address":"Alte Brown 503 PB, Tucuman, Argentina",
+            "phoneNumber":"(011) 15-5226-2998",
+            "website":"https://www.cerveceriaymalteriaquilmes.com/",
+            "logoImg":"images/directory/quilmes-logo.jpg"
+        },
+        {
+            "name":"YPF",
+            "address":"Avenida Presidente Roque Sáenz Peña 777, Tucuman, Argentina",
+            "phoneNumber":"011-5441-0000",
+            "website":"https://www.ypf.com/",
+            "logoImg":"images/directory/YPF-logo.jpg"
+        },
+        {
+            "name":"Personal",
+            "address":"24 De Septiembre 550 Tucuman, Argentina",
+            "phoneNumber":"0800-555-0035",
+            "website":"https://www.personal.com.ar/",
+            "logoImg":"images/directory/personal-logo.jpg"
+        },
+        {
+            "name":"Axion Energy",
+            "address":"Avenida Julio a Roca 715, Tucuman, Argentina",
+            "phoneNumber":"0800-888-0282",
+            "website":"https://www.coca-cola.com.ar/",
+            "logoImg":"images/directory/axion-logo.jpg"
+        },
+        {
+            "name":"Movistar",
+            "address":"Juan de Garay 2599, Tucuman, Argentina",
+            "phoneNumber":"0342 402-9603",
+            "website":"https://www.movistar.com.ar/",
+            "logoImg":"images/directory/Movistar-Logo.jpg"
+        },
+        {
+            "name":"Colgate",
+            "address":"Vedia 4090 - C1430DAK Tucuman, Argentina",
+            "phoneNumber":"0810-444-0057",
+            "website":"https://www.colgate.com/es-gt",
+            "logoImg":"images/directory/Colgate-Logo.jpg"
+        }
+    ]
+}
