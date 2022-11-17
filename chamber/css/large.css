@@ -120,7 +120,7 @@ aside {
 
 /*------------------------------------------------- MAIN ------------------------------------------------------*/
 
-main{
+.index-main{
     display: grid;
     grid-template-columns: 25% 50% 25%;
     font-size: 20px;
@@ -131,7 +131,7 @@ main{
     height: 900px;
 
 }
-main div{
+.index-main .div-1,.div-2,.div-3,.div-4,.div-5,.div-6{
     background-color: #99FFBB;
     text-align: center;
     border: 1.5px solid #666464;
@@ -495,6 +495,47 @@ picture:hover {
 
 /* --------------- Directory ----------------- */
 
-.directory {
-    background-color: #000000;
+
+.directory-page img{
+    width: 200px;
+}
+.directory-page {
+    width: 90%;
+    margin: 0 auto;
+}
+.cardsList {
+	display: flex;
+	flex-direction: column;
+}
+
+.cardsList section {
+	display: flex;
+	align-items: center;
+    border: solid 2px;
+    margin: 1rem;
+    background-color: white;
+}
+.cardsList section{
+    flex-direction: row;
+    justify-content: left;
+}
+.cardsList section > * {
+	margin: 1rem;
+	text-align: left;
+}
+.cardsList section h2{
+    font-size: 2.5rem;
+}
+.cardsList section p {
+    font-size: 1.5rem;
+}
+.cardsList section a{
+    font-size: 1.5rem;
+    text-decoration:underline;
+    color: #437453;
+}
+.cardsGrid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
 }

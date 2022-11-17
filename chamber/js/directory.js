@@ -1,5 +1,5 @@
 const requestURL = "https://nhicolasacosta.github.io/wdd230/chamber/json/data.json"
-const cards = document.querySelector('.directory');
+const cards = document.querySelector('.cards');
 
 fetch(requestURL)
     .then(function(response){
@@ -38,8 +38,8 @@ function displayCompany(company){
 
 }
 
-const grid = document.querySelector("#grid")
-const list = document.querySelector("#list")
+const grid = document.querySelector(".grid")
+const list = document.querySelector(".list")
 disClass = document.querySelector(".cards")
 
 gridButton.addEventListener("click", toggleGrid)
