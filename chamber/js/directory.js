@@ -38,20 +38,16 @@ function displayCompany(company){
 
 }
 
-const grid = document.querySelector(".grid")
-const list = document.querySelector(".list")
-disClass = document.querySelector(".cards")
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector(".cards");
 
-gridButton.addEventListener("click", toggleGrid)
-listButton.addEventListener("click", toggleList)
+gridbutton.addEventListener("click", () => {
+	display.classList.add("cardsGrid");
+	display.classList.remove("cardList");
+});
 
-function toggleList() {
-    disClass.classList.add("cardsList")
-    disClass.classList.remove("cardsGrid")
-
-}
-function toggleGrid() {
-    disClass.classList.remove("cardsList")
-    disClass.classList.add("cardsGrid")
-
-}
+listbutton.addEventListener("click", () => {
+	display.classList.add("cardsList");
+	display.classList.remove("cardsGrid");
+});
