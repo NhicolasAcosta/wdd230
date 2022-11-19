@@ -500,8 +500,26 @@ picture:hover {
     width: 200px;
 }
 .directory-page {
-    width: 90%;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+.directory-page h1{
+    font-size: 40px;
+}
+.menu button {
+    font-size: 2rem;
+    width: 20%;
     margin: 0 auto;
+    margin-bottom: 10px;
+    color: #1cff6b;
+    background-color: #666464;
+    border-radius: 5px;
+}
+.menu button:hover {
+    color: white;
+    background-color: #2b6d42;
+    border: solid 2px black;
 }
 .cardsList {
 	display: flex;
@@ -511,13 +529,13 @@ picture:hover {
 .cardsList section {
 	display: flex;
 	align-items: center;
-    border: solid 2px;
-    margin: 1rem;
+    margin: 1.5rem;
     background-color: white;
 }
 .cardsList section{
     flex-direction: row;
     justify-content: left;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 18px;
 }
 .cardsList section > * {
 	margin: 1rem;
@@ -538,4 +556,20 @@ picture:hover {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	align-items: center;
+    gap: 7.1rem;
 }
+.cardsGrid section {
+	flex-direction: column;
+	text-align: center;
+    height: 300px;
+    width: 280px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 18px;
+}
+
+.cardsGrid section > * {
+	margin: 0 1rem;
+}
+
+
+
+
