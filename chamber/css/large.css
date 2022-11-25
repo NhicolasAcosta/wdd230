@@ -1,9 +1,6 @@
 body{
     font-family: 'Oswald', sans-serif;
 }
-.logo-img {
-    width: 120px;
-}
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -50,9 +47,6 @@ nav h1 {
     font-size: 45px;
 }
 
-.social img{
-    width: 40px;
-}
 .social img:hover{
     padding: 2px;
 }
@@ -94,7 +88,8 @@ nav h1 {
 }
 .menu-link li a:hover {
     color: #338450;
-    font-size: 2rem;
+    padding: .5rem;
+    border: solid 1px #338450;
 }
 /*--------------------------------------------- HOME  ------------------------------------------------------*/
 /*----------------------------------------- CURRENT DATE ----------------------------------------------------*/
@@ -123,80 +118,75 @@ aside {
 .index-main{
     display: grid;
     grid-template-columns: 25% 50% 25%;
-    font-size: 20px;
+    font-size: 1.5rem;
     margin: 20px auto;
     margin-bottom: 17rem;
     gap: 10px;
     width: 90%;
-    height: 900px;
+    height: fit-content;
 
 }
-.index-main .div-1,.div-2,.div-3,.div-4,.div-5,.div-6{
+.index-main div{
     background-color: #99FFBB;
     text-align: center;
     border: 1.5px solid #666464;
     border-radius: 5px 5px 5px 5px;
 }
+div h3{
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c5c3c4 0px 0px 20px, #104d30 0px 0px 30px, #104d30 0px 0px 40px, #104d30 0px 0px 50px, #104d30 0px 0px 75px, -40px -40px 0px rgba(255,255,255,0);
+    font-size: 2.5rem;
+}
+div p {
+    margin-bottom: -5px;
 
-/*--------------------------------------------  DIV 1 ----------------------------------------------------*/
-
-.div-1 {
+}
+/*--------------------------------------------  TEETH ----------------------------------------------------*/
+.teeth {
     grid-column: 1/2;
     grid-row: 1/2;      
 }
-.div-1 h3{
+.teeth h3{
     margin-top: 5px;
     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c5c3c4 0px 0px 20px, #104d30 0px 0px 30px, #104d30 0px 0px 40px, #104d30 0px 0px 50px, #104d30 0px 0px 75px, -40px -40px 0px rgba(255,255,255,0);
 }
-.div-1 p{
-    padding: 20px;
-}
-.div-1 a{
-    color: rgba(28, 28, 228, 0.781);
-    transition: 0.5s;
-}
-.div-1 a:hover {
-    color: rgb(95, 94, 94);
-    text-decoration: underline;
-}
 
-/*--------------------------------------------  DIV 2 ----------------------------------------------------*/
+/*--------------------------------------------  HERO ----------------------------------------------------*/
 
-.div-2 {
+.hero {
     grid-column: 2/3;
     grid-row: 1/3;
 }
-.div-2 picture{
+.hero picture{
     width: 100%;
 }
-.div-2 picture img{
+.hero picture img{
     height: 100%;
     width: 100%;
     border-radius: 5px;
 }
-.div-2 h2, .div-2 p {
-    position: absolute;
-    top: 300px;
-    left: 500px;
+.hero h2, .hero p {
+    position: relative;
+    top: -100%;
+    left: -20%;
 }
 #invitation-button{
-    position: absolute;
-    top: 500px;
-    left: 550px;
+    position: relative;
+    top: -100%;
+    left: -1%;
 }
-.div-2  h2{
+.hero  h2{
     font-size: 32px;
     text-align: right;
     margin-right: 35px;
     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c5c3c4 0px 0px 20px, #104d30 0px 0px 30px, #104d30 0px 0px 40px, #104d30 0px 0px 50px, #104d30 0px 0px 75px, -40px -40px 0px rgba(255,255,255,0);
 }
-.div-2 button{
+.hero button{
     border-radius: 5px;
     color: #338450;
     font-weight:bolder;
     font-size: 20px;
     -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0); 
-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0);
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0);
     width: 200px;
     height: 40px;
     border: 5px groove #338450;
@@ -206,109 +196,31 @@ box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -50px -50px
     left: 150px;
     cursor: pointer;
 }
-.div-2 button:hover{
-    width: 210px;
-    height: 50px;
+.hero button:hover{
     padding: 5px;
+    color: white;
+    background-color: #338450;
+    border-color: white;
 }
-.div-2 p{
+.hero p{
     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c5c3c4 0px 0px 20px, #104d30 0px 0px 30px, #104d30 0px 0px 40px, #104d30 0px 0px 50px, #104d30 0px 0px 75px, -40px -40px 0px rgba(255,255,255,0);
 }
-
-/*--------------------------------------------  DIV 3 ----------------------------------------------------*/
-
-.div-3 {
-    grid-column: 3/4;
-    grid-row: 1/4;
-    padding: 15px;
+/*--------------------------------------------  WEATHER ----------------------------------------------------*/
+#weather-icon{
+    width: 100px;
 }
-.div-3 div{
-    display:block;
-    height: 33%;
-}
-.div-3 h3{
-    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c5c3c4 0px 0px 20px, #104d30 0px 0px 30px, #104d30 0px 0px 40px, #104d30 0px 0px 50px, #104d30 0px 0px 75px, -40px -40px 0px rgba(255,255,255,0);
-}
-.div-3 p {
-    font-size: 12px;
-}
-.div-3 h4{
-    margin-top: -10px;
-}
-.e-mail {
-    margin-top: 5px;
-    margin-bottom: -12px;
-}
-.div-3-3 h4{
-    margin-bottom: -10px;
-}
-.div-3-2 h4{
-    margin-bottom: -10px;
-}
-.div-3-3 img{
-    height: 70px;
-}
-.div-3-2 img{
-    height: 70px;
-    margin-top: -20px;
-} 
-.div-3-2 h3{
-    margin-top: 5px;
-}
-.div-3-1 h4 {
-    margin-top: 10px;
-}
-
-/*--------------------------------------------  DIV 4 ----------------------------------------------------*/
-
-.div-4 {
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-.div-4 .subtitle{
-    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c5c3c4 0px 0px 20px, #104d30 0px 0px 30px, #104d30 0px 0px 40px, #104d30 0px 0px 50px, #104d30 0px 0px 75px, -40px -40px 0px rgba(255,255,255,0);
-    margin-top: 10px;
-}
-.div-4 h2{
-    font-size: 50px;
+.weather-cap {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 50px 40px;
+    margin: 0 auto;
+    font-size: 1.8rem;
 }
-.div-4 h3{
-    margin-top: 8px;
-    font-size: 30px;
+.weather-cap p{
+    margin-left: 5rem;
+    font-size: 3rem;
 }
-.div-4 hr{
-    margin: 1px 20px;
-}
-.div-4 p{
-    margin: 5px 0;
-    font-size: 20px;
-}
-.partly{
-    margin-bottom: 2px;
-    margin-top: 2px;
-}
-.div-4-1 {
-    margin-top: -20px;
-    display: flex;
-}
-.div-4-1 p {
-    font-size: 35px;
-    margin-left: 40px;
-}
-.div-4-1 img{
-    margin-left: 25%;
-    width: 90px;
-}
-
-/*--------------------------------------------  DIV 5 ----------------------------------------------------*/
-.div-5 {
-    padding: 10px;
-}
-.div-5 button{
+/*--------------------------------------------  INVITATION DIV ----------------------------------------------------*/
+.invitation-div button{
     border-radius: 5px;
     color: white;
     background-color: #2d7445;
@@ -323,17 +235,9 @@ box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -50px -50px
     margin-top: 15px;
     cursor: pointer;
 }
-.div-5 button:hover{
-    width: 205px;
-    height: 45px;
-    padding: 5px;
-}
-
-.div-6{
-    padding: 10px;
-}
-.div-6 h3{
-    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c5c3c4 0px 0px 20px, #104d30 0px 0px 30px, #104d30 0px 0px 40px, #104d30 0px 0px 50px, #104d30 0px 0px 75px, -40px -40px 0px rgba(255,255,255,0);
+.invitation-div button:hover{
+    color: #2d7445;
+    background-color: white;
 }
 
 
@@ -344,9 +248,6 @@ footer {
     color: white;
     width: 100%;
     padding: 20px;
-}
-footer img {
-    width: 120px;
 }
 .contact a{
     color: white;
@@ -392,17 +293,17 @@ footer img {
     margin-left: 2%;
 
 }
-picture img[data-src] {
+.discover picture img[data-src] {
     filter: blur(0.5em);
 }
   
-picture img {
+.discover picture img {
     width: 500px;
     margin-bottom: 10px;
     filter: blur(0em);
     transition: 2s;
 }
-picture:hover {
+.discover picture:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: 0.5s;
     padding: 8px;
