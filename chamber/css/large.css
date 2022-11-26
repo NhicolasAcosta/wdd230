@@ -180,7 +180,7 @@ div p {
     margin-right: 35px;
     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c5c3c4 0px 0px 20px, #104d30 0px 0px 30px, #104d30 0px 0px 40px, #104d30 0px 0px 50px, #104d30 0px 0px 75px, -40px -40px 0px rgba(255,255,255,0);
 }
-.hero button{
+.hero a{
     border-radius: 5px;
     color: #338450;
     font-weight:bolder;
@@ -196,7 +196,7 @@ div p {
     left: 150px;
     cursor: pointer;
 }
-.hero button:hover{
+.hero a:hover{
     padding: 5px;
     color: white;
     background-color: #338450;
@@ -206,6 +206,9 @@ div p {
     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c5c3c4 0px 0px 20px, #104d30 0px 0px 30px, #104d30 0px 0px 40px, #104d30 0px 0px 50px, #104d30 0px 0px 75px, -40px -40px 0px rgba(255,255,255,0);
 }
 /*--------------------------------------------  WEATHER ----------------------------------------------------*/
+.weather {
+    font-size: 20px;
+}
 #weather-icon{
     width: 100px;
 }
@@ -219,28 +222,35 @@ div p {
     margin-left: 5rem;
     font-size: 3rem;
 }
+
 /*--------------------------------------------  INVITATION DIV ----------------------------------------------------*/
-.invitation-div button{
+.invitation-div a{
     border-radius: 5px;
     color: white;
     background-color: #2d7445;
     font-weight:500;
     font-size: 20px;
+    padding: 5px 90px;
     -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0); 
     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0);
-    width: 200px;
-    height: 40px;
     border: 5px groove #338450;
-    border-radius: 10px 10px 10px 10px;
-    margin-top: 15px;
+    border-radius: 5px 5px 5px 5px;
     cursor: pointer;
 }
-.invitation-div button:hover{
+.invitation-div a:hover{
     color: #2d7445;
     background-color: white;
 }
-
-
+.invitation-div p{
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+.invitation-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem; 
+}
 /*--------------------------------------------- FOOTER -----------------------------------------------------*/
 
 footer {
