@@ -2,10 +2,7 @@
 
 @media (max-width:767px) {
 
-    body {
-        overflow: hidden;
 
-    }
     .logo-img {
         padding-left: 25px;
     }
@@ -58,18 +55,21 @@
         margin: 20px auto;
         gap: 10px;
         width: 90%;
-        height: 800px;
     
     }
     #invitation-button{
         position: absolute;
-        top: 400px;
-        left: 250px;
+        top: 450px;
+        left: 300px;
     }
-    #invitation-button {
-        position: static;
-        margin-bottom: 20px;
-        margin-left: 10px;
+    .hero h2{
+        font-size: 4rem;
+        position: absolute;
+        top: 25rem;
+        left: 15rem;
+    }
+    .teeth {
+        display: none;
     }
     .contact {
         display: block;
