@@ -442,6 +442,9 @@ footer {
     margin: 3rem auto;  
     text-align: center;
 }
+.directory-page a{
+    font-size: 1.3rem;
+}
 .directory-page .cards section {
     background-color: white;
     padding: .5rem;
@@ -491,11 +494,10 @@ footer {
 .cardsList section h2{
     font-size: 2.5rem;
 }
-.cardsList section p {
+.cardsList section p, .cardsGrid section p {
     font-size: 1.5rem;
 }
 .cardsList section a{
-    font-size: 1.5rem;
     text-decoration:underline;
     color: #437453;
 }
