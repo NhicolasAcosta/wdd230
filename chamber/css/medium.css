@@ -29,7 +29,6 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 92vh;
         margin: 0;
         padding: 0;
         width: 100%;
@@ -41,7 +40,7 @@
         padding: 20px;
     }
     .menu-link li a {
-        font-size: 50px;
+        font-size: 3rem;
         font-weight: 600;
     }
 
@@ -63,10 +62,14 @@
     }
     #invitation-button{
         position: relative;
-        top: -100%;
-        left: -1%;
+    top: -90%;
+    left: 6%;
     }
-
+    #invitation {
+        position: relative;
+        top: -100%;
+        left: 6%;
+    }
     footer {
         background-color: #36383a;
         width: 100%;
@@ -80,10 +83,12 @@
 /* -------------------- DISCOVER --------------------- */
 
     .discover {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: block;
         text-align: center;
         align-items: center;
+    }
+    .discover p{
+        font-size: 14px;
     }
     .visits h2{
         font-size: 25px;
@@ -93,6 +98,21 @@
     }
     .visits {
         text-align: center;
+    }
+    .discover picture img {
+        width: 400px;
+    }
+    .discover picture img:hover {
+        width: 410px;
+    }
+/*----------- directory --------------*/
+    .cardsGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .cardsGrid section {
+        margin: 0 auto;
     }
     
 

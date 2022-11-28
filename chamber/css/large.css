@@ -15,7 +15,9 @@ body {
     font-family: 'Oswald', sans-serif;
     background-color: #fffbe3;
 }
-
+a, button {
+    cursor: pointer;
+}
 /*--------------------------------------------- HEADER -------------------------------------------------*/
 
 header {
@@ -121,7 +123,6 @@ aside {
     grid-template-columns: 25% 50% 25%;
     font-size: 1.5rem;
     margin: 20px auto;
-    margin-bottom: 17rem;
     gap: 15px;
     width: 90%;
     height: fit-content;
@@ -130,6 +131,7 @@ aside {
 .index-main div{
     background-color: #dfdfdf;
     text-align: center;
+    padding: 10px 2px;
     border-radius: 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
@@ -173,11 +175,16 @@ div p {
 }
 #invitation-button{
     position: relative;
-    top: -100%;
+    top: -90%;
     left: -1%;
 }
+#invitation {
+    position: relative;
+    top: -100%;
+    left: 6%;
+}
 .hero  h2{
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: right;
     margin-right: 35px;
 }
@@ -308,11 +315,18 @@ footer {
 .discover {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    text-align: center;
-    align-items: center;
     width: 95%;
     margin-left: 2%;
-
+    text-align: center;
+}
+.discover div{
+    display: block;
+    align-content: center;
+    margin: 1rem;
+    border: solid .1px;
+    background-color: #dfdfdf;
+    padding: 15px 0;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .discover picture img[data-src] {
     filter: blur(0.5em);
@@ -320,14 +334,13 @@ footer {
   
 .discover picture img {
     width: 500px;
-    margin-bottom: 10px;
     filter: blur(0em);
     transition: 2s;
 }
-.discover picture:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+.discover picture img:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
     transition: 0.5s;
-    padding: 8px;
+    width: 510px;
 }
 .visits h2{
     font-size: 30px;
@@ -341,14 +354,17 @@ footer {
 .discover p{
     font-size: 15px;
     width: 70%;
+    text-align: justify;
+    width: 80%;
     margin: 0 auto;
-    margin-bottom: 10px;
+    padding: 15px 0;
 }
 
 /*----------- JOIN ------------*/
 .join-title{
     font-size: 4rem;
     text-align: center;
+    text-decoration: underline double;
 }
 .join-form {
     background-color: #36383a;
@@ -367,7 +383,7 @@ footer {
     margin: 0 1rem;
     padding: 0 1rem;
     font-size: 2.5rem;
-    color: #338450;
+    color: #29ff74;
 }
 .join-form label {
     display: block;
@@ -377,7 +393,7 @@ footer {
 .join-form input, .join-form select, .join-form textarea {
     display: block;
     font-size: 1.5rem;
-    border: solid 1.8px #338450;
+    border: solid 1.8px #29ff74;
     border-radius: 5px;
     padding: .6rem;
     width: 70%;
@@ -387,7 +403,7 @@ footer {
     width: 40%;
     margin: 0 auto;
     margin-bottom: 10px;
-    color: #338450;
+    color: #29ff74;
     background-color: #666464;
 }
 .join-form .submit:hover {
@@ -423,11 +439,20 @@ footer {
 }
 .directory-page {
     width: 95%;
-    margin: auto;
+    margin: 3rem auto;  
     text-align: center;
+}
+.directory-page .cards section {
+    background-color: white;
+    padding: .5rem;
 }
 .directory-page h1{
     font-size: 40px;
+}
+.cards a, .cardsGrid a, .cardsList a:hover {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
 }
 .menu button {
     font-size: 2rem;
@@ -478,7 +503,7 @@ footer {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	align-items: center;
-    gap: 7.1rem;
+    gap: 7.5rem;
 }
 .cardsGrid section {
 	flex-direction: column;
@@ -490,6 +515,9 @@ footer {
 
 .cardsGrid section > * {
 	margin: 0 1rem;
+}
+.cardsGrid p{
+    text-align: center;
 }
 
 
