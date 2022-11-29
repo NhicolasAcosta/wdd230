@@ -114,7 +114,16 @@
     .cardsGrid section {
         margin: 0 auto;
     }
-    
+
+/* ----------------- CONTACT ----------------- */
+
+    .info-div {
+        width: 90%;
+        display: block;
+    }
+    .contact-form{
+        width: 90%;
+    }
 
 }
 
@@ -127,4 +136,6 @@
     display: flex;
     animation: showMenu 350ms ease-in-out both;
 }
+
+
 

@@ -411,6 +411,21 @@ footer {
     background-color: #2b6d42;
     border: solid 2px white;
 }
+.memberships {
+    display: flex;
+}
+.memberships div {
+    margin: 0 auto;
+}
+.memberships div p{
+    font-size: 11px;
+}
+.memberships div h3{
+    font-size: 15px;
+    text-decoration: underline;
+    color: #2b6d42;
+}
+
 
 /* ---- Thank for join ---- */
 
@@ -522,6 +537,72 @@ footer {
     text-align: center;
 }
 
+/* ---------------- CONTACT -------------------- */
+.info-div {
+    width: 90%;
+    margin: 2rem auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+.contact-main h2{
+    font-size: 3.5rem;
+    color: #437453;
+}
+.contact-main p{
+    font-size: 1.4rem;
+    margin-left: 5rem;
+}
+.contact-div{
+    background-color: #dfdfdf;
+    padding: 0 2rem 2rem 2rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.contact-form fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-form fieldset label{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    width: 90%;
+}
+.contact-form {
+    width: 50%;
+    margin: 2rem auto;
+    background-color: #dfdfdf;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 5px;
+    padding: 2rem;
+    display: block;
 
-
+}
+.contact-form legend{
+    color: #437453;
+    font-size: 2.5rem;
+    padding: 0 1rem;
+}
+.contact-form input, .contact-form textarea{
+    font-size: 1.5rem;
+    border: solid 1.8px #518b65;
+    border-radius: 5px;
+    padding: .6rem;
+    width: 90%;
+}
+.contact-form .submit{
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 10px;
+    color: #29ff74;
+    background-color: #666464;
+}
+.contact-form .submit:hover{
+    color: rgb(0, 0, 0);
+    background-color: #29ff74;
+    border: solid 2px rgb(7, 7, 7);
+}
 
