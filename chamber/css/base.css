@@ -160,6 +160,15 @@
         margin: 10px auto;
         padding: 5px;
     }
+    /* ----------------- CONTACT ----------------- */
+
+    .info-div {
+        width: 90%;
+        display: block;
+    }
+    .contact-form{
+        width: 90%;
+    }
 
 }
 
