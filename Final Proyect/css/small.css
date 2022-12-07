@@ -6,14 +6,17 @@ h1, h2{
     font-family: 'Oswald', sans-serif;
 }
 .logo-img{
-    border-radius: 30px;
+    border-radius: 5px;
+    border: 2px solid #009FB7;
+    width: 120px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 main {
     margin-top: .5rem;
 }
 /* --- NAVEGATION --- */
 header {
-    background-color: #fffafa;
+    background-color: #cc1a4c;
     display: block;
     margin: auto;
     width: 99%;
@@ -32,11 +35,12 @@ nav ul li a{
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #333;
+    color: rgb(255, 255, 255);
     border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 nav ul li a:hover {
-    background-color: #d3d3d6;
+    border: 2px solid #009FB7;
+    border-radius: 5px;
 }
 nav ul {display: none;}
 nav ul.open {display: block;}
@@ -49,7 +53,7 @@ nav ul.open {display: block;}
 
 .search input{
     border-radius: 10px;
-    border: 1px solid #009FB7;
+    border: 2px solid #009FB7;
     font-size: 1rem;
 }
 .b-nav {
