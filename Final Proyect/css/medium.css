@@ -1,0 +1,34 @@
+@media only screen and (min-width: 35rem) {
+
+/* --- NAVEGATION ---     */
+    nav button {
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        width: 50%;
+    }
+    nav ul li a {
+        border: none;
+    }
+    header ul li{
+        margin: 0 auto;
+        font-size: 1.5rem;
+    }
+    .b-nav {
+        display: flex;
+        width: 60%;
+        margin: auto;
+    }
+    .search {
+        margin-left: 25rem;
+        margin-top: 2.5rem;
+    }
+    .search input{
+        border-radius: 10px;
+        border: 1px solid #009FB7;
+        font-size: 1.2rem;
+    }
+
+
+}

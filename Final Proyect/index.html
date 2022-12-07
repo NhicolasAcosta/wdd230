@@ -4,20 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Final Proyect/css/style.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
     <title>Home</title>
 </head>
 <body>
     <header>
+        <div class="b-nav">
+            <picture><img src="images/logo-img.jpg" class="logo-img" alt="logo-img"></picture>
+            <div class="search">
+                <input type="text" id="search">
+                <a href="#" class="search-btn">
+                    <i class="search-icon"></i>
+                </a>
+            </div>
+        </div>
         <nav>
-            <ul class="navegation">
-                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="navegation">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Fresh</a></li>
                 <li><a href="#">About Us</a></li>
+                <li><a href="#">Site Plan</a></li>
             </ul>
         </nav>
     </header>
-    <script src="/Final Proyect/js/script.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
