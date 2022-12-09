@@ -1,6 +1,8 @@
 body{
     background-color: #009FB7;
     font-family: 'Dosis', sans-serif;
+    width: 95%;
+    margin: auto;
 }
 h1, h2{
     font-family: 'Oswald', sans-serif;
@@ -12,14 +14,12 @@ h1, h2{
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 main {
-    margin-top: .5rem;
+    padding: .5rem;
 }
 /* --- NAVEGATION --- */
 header {
     background-color: #cc1a4c;
     display: block;
-    margin: auto;
-    width: 99%;
     border-radius: 3px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
@@ -72,15 +72,13 @@ nav ul.open {display: block;}
 }
 
 /* --- BANNER --- */
-.banner{
-    width: 95%;
-    margin: auto;
-}
+
 .banner img{
     border-radius: 5px;
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
+/* --- INVITATION --- */
 .invitation {
     display: block;
     text-align: center;
@@ -90,4 +88,76 @@ nav ul.open {display: block;}
     border-radius: 5px;
     background-color: #02aac4;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+hr{
+    width: 50%; 
+    margin-top: 5%;
+}
+/* --- OUR CITY --- */
+.carlsbad {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+/* --- GALERY --- */
+.galery div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 1rem;
+}
+.galery h2{
+    text-align: center;
+}
+.galery div img{
+    width: 90%;
+}
+.galery picture{
+    margin: auto;
+}
+/* --- CALL TO ACTION --- */
+.call {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/* --- FOOTER --- */
+footer{
+    display: block;
+    padding: .5rem;
+    background-color: #cc1a4c;
+    color: #d3d3d6;
+}
+footer hr{
+    width: 100%;
+}
+.s-footer{
+    display: flex;
+}
+.s-footer img{
+    padding: 2px;
+    width: 110px;
+}
+.contact{
+    display: flex;
+}
+.contact div, .contact p{
+    margin-left: 3%;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-left: 5%;
+}
+.copyright{
+    display: flex;
+    padding: 2%;
+}
+.copyright div{
+    display: flex;
+    margin: auto;
+}
+.copyright div p{
+    margin: 0 5px;
 }

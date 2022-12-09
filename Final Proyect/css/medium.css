@@ -30,5 +30,24 @@
         font-size: 1.2rem;
     }
 
+/* --- main --- */
+
+    /* --- carlsbad --- */
+    .carlsbad {
+        padding: 1.5rem;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        gap: 1.5rem;
+    }
+    .carlsbad picture{
+        float: right;
+    }
+    .call {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+/* --- FOOTER --- */
 
 }

@@ -24,6 +24,20 @@
         font-size: 1.2rem;
     }
 
+    /* --- BANNER --- */
+    .invitation{
+        width: 40%;
+        position: absolute;
+        top: 18rem;
+        left: 35rem;
+    }    
+    .galery div{
+        display: flex;
+    }
+    .galery div img{
+        width: 100%;
+    }
+    
 
 
 }
