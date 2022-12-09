@@ -40,6 +40,15 @@
     .galery div img{
         width: 100%;
     }
+    /* --- OUR CITY --- */
+    .carlsbad{
+        display: flex;
+    }
+    .carlsbad img {
+        float: right;
+        width: 500px;
+    }
+
     /* --- FOOTER --- */
     .s-footer div {
         column-gap: 4rem;
