@@ -1,4 +1,8 @@
 @media only screen and (min-width: 35rem) {
+/* --- BODY --- */
+    p {
+        font-size: 1.1rem;
+    }
 
 /* --- NAVEGATION ---     */
     nav button {
@@ -49,5 +53,17 @@
         align-items: center;
     }
 /* --- FOOTER --- */
+    footer{
+        display: block;
+    }
+    .s-footer div{
+        display: flex;
+        margin: auto;
+        column-gap: 2rem;
+        align-items: center;
+    }
+    .copyright div{
+        column-gap: 1.5rem;
+    }
 
 }

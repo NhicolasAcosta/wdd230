@@ -1,5 +1,8 @@
 @media only screen and (min-width: 64rem) {
-
+/* --- BODY --- */
+    p {
+        font-size: 1.4rem;
+    }
 /* --- NAVEGATION --- */
     nav ul {
         display: flex;
@@ -37,7 +40,9 @@
     .galery div img{
         width: 100%;
     }
-    
-
+    /* --- FOOTER --- */
+    .s-footer div {
+        column-gap: 4rem;
+    }
 
 }
