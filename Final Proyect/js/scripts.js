@@ -38,3 +38,6 @@ if ('IntersectionObserver' in window) {
       loadImages(img);
     });
 }
+
+// ---------- LAST MODIFIED ----------
+document.querySelector('#lastModified').textContent = `Last Modification: ${document.lastModified}`;

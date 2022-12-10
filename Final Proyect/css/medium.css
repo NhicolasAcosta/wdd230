@@ -3,6 +3,9 @@
     p {
         font-size: 1.1rem;
     }
+    #lastModified {
+        font-size: 1.1rem;
+    }
 
 /* --- NAVEGATION ---     */
     nav button {
@@ -72,5 +75,6 @@
     .copyright div{
         column-gap: 1.5rem;
     }
+    
 
 }
