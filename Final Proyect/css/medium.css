@@ -3,7 +3,7 @@
     p {
         font-size: 1.1rem;
     }
-    #lastModified {
+    .copyright div{
         font-size: 1.1rem;
     }
 
@@ -75,6 +75,5 @@
     .copyright div{
         column-gap: 1.5rem;
     }
-    
 
 }

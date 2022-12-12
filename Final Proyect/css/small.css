@@ -18,11 +18,32 @@ main {
 }
 picture img[data-src] {
     filter: blur(0.5em);
+    transition: .5s;
 }
 picture img {
     filter: blur(0em);
+    transition: .5s;
+}
+.invitation a, .call-text a {
+    text-decoration: none;
+    color: #cc1a4c;
+    padding: 1rem;
+    border: solid .2px #cc1a4c;
+
+}
+a:hover{
+    color: #cc1a4c;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: underline;
+    border: solid .2px #cc1a4c;
+}
+nav a{
+    width: 8%;
 }
 
+
+/*-------------------------------------------------------------------------------------
 /* --- NAVEGATION --- */
 header {
     background-color: #cc1a4c;
@@ -68,10 +89,11 @@ nav ul.open {display: block;}
     display: flex;
 }
 .search{
-    margin:auto;
+    margin: auto;
 }
-.b-nav picture{
+.b-nav img{
     margin-left: 1rem;
+    margin-top: 1rem;
 }
 #hamburgerBtn {
     border-radius: 4px;
@@ -90,7 +112,7 @@ nav ul.open {display: block;}
 .invitation {
     display: block;
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem .2rem;
     margin: auto;
     width: 70%;
     border-radius: 5px;
@@ -196,7 +218,4 @@ footer hr{
     display: flex;
     margin: auto;
     column-gap: 1rem;
-}
-#lastModified {
-    
 }
