@@ -31,6 +31,53 @@
             </ul>
         </nav>
     </header>
+    <main>
+
+        <h1 class="mix-you">Mix Your Own Juice And Get A Fresh Juice</h1>
+            <form action="thankyou.html" class="mix-form" method="get">
+                <div class="form-in">
+                    <fieldset class="info">
+                        <legend>Contact Information</legend>
+                        <label>First Name* <input type="text" name="fname" required></label>
+                        <label>Last Name* <input type="text" name="lname" required></label>
+                        <label>Email* <input type="email" name="email" placeholder="example@gmail.com" required></label>
+                        <label>Phone Number* <input type="tel" name="nphone" required></label>
+                    </fieldset>    
+                    <fieldset class="ing">
+                        <legend>Ingredients</legend>
+                        <div class="options">
+                            <label for="strawberry"><input type="checkbox" name="strawberry" value="fruit"> strawberry</label>
+                            <label for="grape"><input type="checkbox" name="grape" value="fruit"> Grape</label>
+                            <label for="orange"><input type="checkbox" name="orange" value="fruit" checked>Orange</label>
+                            <label for="blackberry"><input type="checkbox" name="blackberry" value="fruit">Blackberry</label>
+                            <label for="avocado"><input type="checkbox" name="avocado" value="fruit" checked>Avocado</label>
+                            <label for="apple"><input type="checkbox" name="apple" value="fruit">Apple</label>
+                            <label for="green-apple"><input type="checkbox" name="green-apple" value="fruit" checked>Green-Apple</label>
+                            <label for="banana"><input type="checkbox" name="banana" value="fruit">Banana</label>
+                            <label for="watermelon"><input type="checkbox" name="watermelon" value="fruit" checked>Watermelon</label>
+                            <label for="tangerine"><input type="checkbox" name="tangerine" value="fruit">Tangerine</label>
+                            <label for="pineapple"><input type="checkbox" name="pineapple" value="fruit" checked>Pineapple</label>
+                        </div>
+                        <label class="instruction">Additional Instructions (Optional)<textarea name="instructions" cols="80" rows="10" placeholder="Write your additional instructions"></textarea></label>
+                    </fieldset>
+                </div>
+                <section class="price">
+                    <ul class="quantity">
+                        <li>One Fruit - $2</li>
+                        <li>Two Fruits - $5</li>
+                        <li>Three Fruits - $10</li>
+                        <li>Four Fruits - $13</li>
+                    </ul>
+                    <ul class="liquid">
+                        <li>Water - $1</li>
+                        <li>Milk - $3</li>
+                    </ul>
+                </section>
+                <input class="mix" type="submit" value="Submit">
+            </form>
+            
+
+    </main>
     <script src="js/scripts.js"></script>
 </body>
 </html>

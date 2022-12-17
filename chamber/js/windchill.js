@@ -11,7 +11,7 @@ async function apiFetch() {
       if (response.ok) {
         const data = await response.json();
         console.log(data);
-        array = displayResults(data);
+        let array = displayResults(data);
         elements(array)
 
       } else {

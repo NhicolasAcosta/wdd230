@@ -31,17 +31,13 @@ picture img {
     border: solid .2px #cc1a4c;
 
 }
-a:hover{
+main a:hover{
     color: #cc1a4c;
     background-color: white;
     cursor: pointer;
     text-decoration: underline;
     border: solid .2px #cc1a4c;
 }
-nav a{
-    width: 8%;
-}
-
 
 /*-------------------------------------------------------------------------------------
 /* --- NAVEGATION --- */
@@ -182,6 +178,71 @@ hr{
     transition:none;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+
+
+/*--- WEATHER ---*/
+.weather{
+    display: flex;
+    width: fit-content;
+    width: 100%;
+    justify-content: start;
+    align-items: none;
+    overflow-x: scroll;
+}
+.current-weather{
+    text-align: center;
+    margin-top: 2rem;
+    color: #d3d3d6;
+    border: .5px solid #d3d3d6;
+    padding: .2rem 5rem;
+    margin: auto;
+    width: 25rem;
+    border-radius: 5px;
+    background: rgba(204, 26, 76, .7);
+}
+.current-weather #current-temp{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.current-weather #humidity{
+    font-size: 1.5rem;
+}
+.current-weather #weather-icon{
+    width: 80px;
+}
+.current-weather figcaption{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.forecast-weather{
+    width: 100%;
+    display: flex;
+}
+.day-1, .day-2, .day-3{
+    display: flex;
+    flex-direction: column;
+    color: #d3d3d6;
+    background: rgba(204, 26, 76, .7);
+    border: .5px solid #d3d3d6;
+    border-radius: 5px;
+    padding: 0 .5rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 25rem;
+
+}
+#min, #max{
+    margin: 1rem auto;
+    font-size: 2rem;
+}
+.day-name{
+    font-size: 2rem;
+    margin-top: 0;
+    padding-top: .2rem;
+    font-weight: 700;
+    text-decoration: underline double;
+}
+
 /* --- FOOTER --- */
 footer{
     display: block;
@@ -219,3 +280,62 @@ footer hr{
     margin: auto;
     column-gap: 1rem;
 }
+
+
+/*____________________________________________________________  */
+/*____________________________________________________________  */
+/*____________________________________________________________  */
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info label{
+    display: flex;
+    padding: .3rem 0;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+legend {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.mix-form {
+    display: flex;
+    flex-direction: column;
+}
+.ing .options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 2rem;
+}
+.options label{
+    padding: .4rem;
+    font-size: 1.3rem;
+}
+.options label input{
+    margin: 0 1rem;
+}
+.ing .instruction{
+    font-size: 1.3rem;
+}
+.instruction textarea{
+    width: 100%;
+    margin-top: 1rem;
+}
+.price {
+    font-size: 1.3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.price ul li{
+    margin-bottom: 1.1rem;
+}
+.mix-form .mix{
+    font-size: 1.6rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
