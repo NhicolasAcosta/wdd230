@@ -75,5 +75,20 @@
     .copyright div{
         column-gap: 1.5rem;
     }
+/*____________________________________________________________  */
+/*____________________________________________________________  */
+/*____________________________________________________________  */
+    .quantity{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
 
+    }
+    .price {
+        display: flex;
+        margin: auto;
+    }
+    .price ul li{
+        font-weight: 600;
+        margin: 1rem 4rem;
+    }
 }

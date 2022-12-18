@@ -33,7 +33,7 @@
     </header>
     <main>
 
-        <h1 class="mix-you">Mix Your Own Juice And Get A Fresh Juice</h1>
+        <h1 class="mix-you">Make your favorite and drink it Fresh</h1>
             <form action="thankyou.html" class="mix-form" method="get">
                 <div class="form-in">
                     <fieldset class="info">
@@ -42,42 +42,75 @@
                         <label>Last Name* <input type="text" name="lname" required></label>
                         <label>Email* <input type="email" name="email" placeholder="example@gmail.com" required></label>
                         <label>Phone Number* <input type="tel" name="nphone" required></label>
+                        <label>Place to delivery* <input type="text" name="pdelivery" required></label>
                     </fieldset>    
                     <fieldset class="ing">
                         <legend>Ingredients</legend>
                         <div class="options">
-                            <label for="strawberry"><input type="checkbox" name="strawberry" value="fruit"> strawberry</label>
-                            <label for="grape"><input type="checkbox" name="grape" value="fruit"> Grape</label>
-                            <label for="orange"><input type="checkbox" name="orange" value="fruit" checked>Orange</label>
-                            <label for="blackberry"><input type="checkbox" name="blackberry" value="fruit">Blackberry</label>
-                            <label for="avocado"><input type="checkbox" name="avocado" value="fruit" checked>Avocado</label>
-                            <label for="apple"><input type="checkbox" name="apple" value="fruit">Apple</label>
-                            <label for="green-apple"><input type="checkbox" name="green-apple" value="fruit" checked>Green-Apple</label>
-                            <label for="banana"><input type="checkbox" name="banana" value="fruit">Banana</label>
-                            <label for="watermelon"><input type="checkbox" name="watermelon" value="fruit" checked>Watermelon</label>
-                            <label for="tangerine"><input type="checkbox" name="tangerine" value="fruit">Tangerine</label>
-                            <label for="pineapple"><input type="checkbox" name="pineapple" value="fruit" checked>Pineapple</label>
+                            <div class="check">
+                                <label for="strawberry"><input type="checkbox" name="strawberry" value="fruit"> strawberry</label>
+                                <label for="grape"><input type="checkbox" name="grape" value="fruit"> Grape</label>
+                                <label for="orange"><input type="checkbox" name="orange" value="fruit" checked>Orange</label>
+                                <label for="blackberry"><input type="checkbox" name="blackberry" value="fruit">Blackberry</label>
+                                <label for="avocado"><input type="checkbox" name="avocado" value="fruit" checked>Avocado</label>
+                                <label for="apple"><input type="checkbox" name="apple" value="fruit">Apple</label>
+                                <label for="green-apple"><input type="checkbox" name="green-apple" value="fruit" checked>Green-Apple</label>
+                                <label for="banana"><input type="checkbox" name="banana" value="fruit">Banana</label>
+                                <label for="watermelon"><input type="checkbox" name="watermelon" value="fruit" checked>Watermelon</label>
+                                <label for="tangerine"><input type="checkbox" name="tangerine" value="fruit">Tangerine</label>
+                                <label for="pineapple"><input type="checkbox" name="pineapple" value="fruit" checked>Pineapple</label>
+                            </div>
+                            <div class="radio">
+                                <label for="water"><input type="radio" id="water" name="fav_language" value="water">Water</label><br>
+                                <label for="milk"><input type="radio" id="milk" name="fav_language" value="milk">Milk</label><br>
+                            </div>
                         </div>
                         <label class="instruction">Additional Instructions (Optional)<textarea name="instructions" cols="80" rows="10" placeholder="Write your additional instructions"></textarea></label>
                     </fieldset>
                 </div>
                 <section class="price">
                     <ul class="quantity">
-                        <li>One Fruit - $2</li>
-                        <li>Two Fruits - $5</li>
-                        <li>Three Fruits - $10</li>
-                        <li>Four Fruits - $13</li>
+                        <li>One Fruit: $2</li>
+                        <li>Two Fruits: $5</li>
+                        <li>Three Fruits: $10</li>
+                        <li>Four Fruits: $13</li>
                     </ul>
                     <ul class="liquid">
-                        <li>Water - $1</li>
-                        <li>Milk - $3</li>
+                        <li>Water: $1</li>
+                        <li>Milk: $3</li>
                     </ul>
                 </section>
                 <input class="mix" type="submit" value="Submit">
             </form>
-            
-
     </main>
+    <footer>
+        <section class="s-footer">
+            <div class="contact">
+                <img class="logo-img" src="images/logo-img.jpg" alt="logo-img">
+                <div>
+                    <p class="dress">205 Rivadavia <br> Tucuman, San Miguel 4000</p>
+                </div>
+                <p class="email">Info@mixyou.com <br> +(54) 3855-420297 <br>
+            </div>
+            <div class="social">
+                <a href=""><img src="images/logo-img.png" alt="logo-img"></a>
+                <a href=""><img src="images/logo-img.png" alt="logo-img"></a>
+                <a href=""><img src="images/logo-img.png" alt="logo-img"></a>
+            </div>
+        </section>
+        <hr>
+        <section class="copyright">
+            <div>
+                <p>&copy; MixYou </p>
+                <p>|</p>
+                <p>Nhicolas Acosta</p>
+                <p>|</p>
+                <p>WDD 230 Project</p>
+                <p>|</p>
+            </div>
+            <div id="lastModified"></div>
+        </section>
+    </footer>
     <script src="js/scripts.js"></script>
 </body>
 </html>

@@ -65,4 +65,28 @@
         column-gap: 4rem;
     }
 
+
+/*____________________________________________________________  */
+/*____________________________________________________________  */
+/*____________________________________________________________  */
+
+    .form-in{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .quantity{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .price ul li{
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 1rem 4rem;
+    }
+    .price  {
+        display: flex;
+        margin: auto;
+    }
+
+
 }
