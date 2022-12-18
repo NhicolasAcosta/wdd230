@@ -53,8 +53,15 @@
         width: 45rem;
     }
     /* --- CALL --- */
+    .call{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     .call img{
-        width: 100%;
+        width: 80%;
+    }
+    .call-img2{
+        display:initial;
     }
 
     /* --- WEATHER --- */
@@ -69,10 +76,21 @@
 /*____________________________________________________________  */
 /*____________________________________________________________  */
 /*____________________________________________________________  */
-
+    .mix-you{
+        font-size: 3rem;
+        text-align: center;
+        text-decoration: underline;
+    }
     .form-in{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .form-img img{
+        width: 38rem;
+    }
+    .form-img{
+        align-items: center;
+        padding: .2rem;
     }
     .quantity{
         display: grid;

@@ -285,7 +285,11 @@ footer hr{
 /*____________________________________________________________  */
 /*____________________________________________________________  */
 /*____________________________________________________________  */
-
+.mix-you{
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+}
 .info{
     display: flex;
     flex-direction: column;
@@ -333,7 +337,14 @@ legend {
     font-size: 1.4rem;
     font-weight: 600;
 }
-
+.form-img img{
+    width: 25rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.form-img{
+    align-items: center;
+    padding: .2rem 2rem;
+}
 .price {
     font-size: 1.3rem;
     display: grid;

@@ -56,33 +56,31 @@ let day2 = '';
 let day3 = '';
 
 //---DAY 1 ---//
-function getDay1(){
-    if (days[day] < 6){
-        day1 = days[day+1];
+
+function getDays(){
+    if (days[day] == 4){
+        day1 = days[5];
+        day2 = days[6];
+        day3 = days[0];
     }else{
-        day1 = days[day-6];
+        if (days[day] == 5){
+            day1 = days[6];
+            day2 = days[0];
+            day3 = days[1];
+        } else {
+            if (days[day] == 6){
+                day1 = days[0];
+                day2 = days[1];
+                day3 = days[2];
+            } else{
+                day1 = days[day+1];
+                day2 = days[day+2];
+                day3 = days[day+3];
+            }
+        }
     }
 }
-console.log(days[0])
-//---DAY 2 ---//
-function getDay2(){
-    if (days[day] < 5){
-        day2 = days[day+2];
-    }else{
-        day2 = days[day-5];
-    }
-}
-//---DAY 3 ---//
-function getDay3(){
-    if (days[day] < 4){
-        day3 = days[day+3];
-    }else{
-        day3 = days[day-4];
-    }
-}
-getDay1()
-getDay2()
-getDay3()
+getDays()
 
 
 //------------------ CURRENT WEATHER --------------------//
