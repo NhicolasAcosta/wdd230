@@ -6,6 +6,9 @@
     .copyright div{
         font-size: 1.1rem;
     }
+    .logo-img{
+        width: 120px;
+    }
 
 /* --- NAVEGATION ---     */
     nav button {
