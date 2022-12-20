@@ -50,18 +50,10 @@
                     <fieldset class="ing">
                         <legend>Ingredients</legend>
                         <div class="options">
-                            <div class="check">
-                                <label for="strawberry"><input type="checkbox" name="strawberry" value="fruit"> strawberry</label>
-                                <label for="grape"><input type="checkbox" name="grape" value="fruit"> Grape</label>
-                                <label for="orange"><input type="checkbox" name="orange" value="fruit" checked>Orange</label>
-                                <label for="blackberry"><input type="checkbox" name="blackberry" value="fruit">Blackberry</label>
-                                <label for="avocado"><input type="checkbox" name="avocado" value="fruit" checked>Avocado</label>
-                                <label for="apple"><input type="checkbox" name="apple" value="fruit">Apple</label>
-                                <label for="green-apple"><input type="checkbox" name="green-apple" value="fruit" checked>Green-Apple</label>
-                                <label for="banana"><input type="checkbox" name="banana" value="fruit">Banana</label>
-                                <label for="watermelon"><input type="checkbox" name="watermelon" value="fruit" checked>Watermelon</label>
-                                <label for="tangerine"><input type="checkbox" name="tangerine" value="fruit">Tangerine</label>
-                                <label for="pineapple"><input type="checkbox" name="pineapple" value="fruit" checked>Pineapple</label>
+                            <div class="fruit-select">
+                                <select id="f-fruit" name="f-fruits"></select>
+                                <select id="s-fruit" name="s-fruits"></select>
+                                <select id="t-fruit" name="t-fruits"></select>
                             </div>
                             <div class="radio">
                                 <label for="water"><input type="radio" id="water" name="fav_language" value="water">Water</label><br>
@@ -83,7 +75,7 @@
                         <li>Milk: $3</li>
                     </ul>
                 </section>
-                <input class="mix" type="submit" value="Make">
+                <button id="mix" class="mix">Make</button>
             </form>
     </main>
     <footer>
@@ -115,5 +107,6 @@
         </section>
     </footer>
     <script src="js/scripts.js"></script>
+    <script src="js/mix-fruit.js"></script>
 </body>
 </html>

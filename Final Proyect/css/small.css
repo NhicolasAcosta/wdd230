@@ -316,14 +316,22 @@ legend {
     display: flex;
     flex-direction: column;
 }
-.ing .options .check{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 2rem;
+.fruit-select {
+    font-size: 1.5rem;
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.fruit-select select{
+    border-radius: 3px;
 }
 .options label{
     padding: .4rem;
     font-size: 1.3rem;
+}
+.options div{
+    margin: 2rem 0;
 }
 .options label input{
     margin: 0 1rem;
